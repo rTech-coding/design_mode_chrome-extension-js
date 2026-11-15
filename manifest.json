@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Design Mode Toggle",
+  "version": "1.0",
+  "description": "Activa o desactiva document.designMode con un clic.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Activar/Desactivar Design Mode"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
